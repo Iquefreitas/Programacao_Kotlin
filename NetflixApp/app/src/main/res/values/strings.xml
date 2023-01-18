@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Netflix App</string>
+    <item name="icInfo" type="id" />
+</resources>
