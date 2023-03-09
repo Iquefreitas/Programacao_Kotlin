@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Loja Virtual</string>
+    <string name="nome_loja"><b><font color="#3F51B5"> Loja</font></b> Virtual</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_bairro">Bairro</string>
+    <string name="hint_rua_numero">Rua e numero</string>
+    <string name="hint_cidade_estado">Cidade e Estado</string>
+    <string name="hint_celular">Celular</string>
+    <string name="texto_botao_entrar">Entrar</string>
+    <string name="texto_botao_fazer_pagamento">Fazer Pagamento</string>
+    <string name="texto_tela_cadastro"> Não tem uma conta? Cadastre-se agora.</string>
+    <string name="titulo_tela_cadastro">Faça seu Cadastro</string>
+    <string name="texto_dialog_carregando">Carregando...</string>
+
+    <string name="menu_item_perfil">Perfil</string>
+    <string name="menu_item_pedidos">Pedidos</string>
+    <string name="menu_item_deslogar">Sair da Sessão</string>
+    <string name="texto_botao_deslogar">Sair</string>
+    <string name="titulo_escolha_tamanho_calcado">Escolha o Tamanho</string>
+    <string name="titulo_preco">Preço</string>
+    <string name="texto_botao_finalizar_pedido">Finalizar Pedido</string>
+    <string name="texto_tamanho_38">38</string>
+    <string name="texto_tamanho_39">39</string>
+    <string name="texto_tamanho_40">40</string>
+    <string name="texto_tamanho_41">41</string>
+    <string name="texto_tamanho_42">42</string>
+    <string name="titulo_tela_pagamento">Preencha todos os campos antes de fazer o pagamento</string>
+
+</resources>

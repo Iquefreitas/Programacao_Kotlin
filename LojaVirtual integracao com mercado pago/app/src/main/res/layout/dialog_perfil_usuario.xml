@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/container_circulo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/circulo_imagem_perfil"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ic_nomeUsuario"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_nome_usuario"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/container_circulo"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_nomeUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/container_circulo"
+        app:layout_constraintStart_toEndOf="@id/ic_nomeUsuario"/>
+
+    <ImageView
+        android:id="@+id/ic_emailUsuario"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_email_usuario"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/ic_nomeUsuario"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/txt_emailUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintTop_toBottomOf="@id/txt_nomeUsuario"
+        app:layout_constraintStart_toEndOf="@id/ic_emailUsuario"/>
+
+    <Button
+        android:id="@+id/bt_deslogar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_botao_deslogar"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:background="@color/dark_blue"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/ic_emailUsuario"
+        app:layout_constraintStart_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
